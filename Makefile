@@ -1,11 +1,13 @@
+MD: paper/sections/*.md
 
-all:
 
-paper.md: (files)
-	cat 3.md > paper.md
+all: paper/paper.md paper/paper.html
 
-paper.html: paper.md
-	pandoc paper.md -s -o paper.html
+paper/paper.md: $(MD)
+	cat $(MD) > paper/paper.md
+
+paper/paper.html: paper/paper.md
+	pandoc paper/paper.md -s -o paper/paper.html
 
 	
 
