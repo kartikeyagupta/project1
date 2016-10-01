@@ -1,14 +1,115 @@
-Where can I get some?
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+# Statistics 159 - Project 1 #
+Author - Kartikeya Gupta, 24557462
+Email - Kartik.gupta@berkeley.edu
 
-What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+"HOW TO MAKE A PROJECT USING BASIC PROGRAMMING TOOLS"
 
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+This paper is essentially a project about how I made this paper. Very abstract right? Consider this - This section is essentially the "abstract" section of the paper! Woooohhhhh!
 
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+INTRODUCTION:
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+To write this paper, I have used the tools mentioned below:  
+- Git - A VCS used for software development and version control tasks. Free - Open source  
+- GitHub - Web based service that integrates Git with a very beautiful and funtional GUI. It also adds its own feature that some might appreciate.  
+- Pandoc - Free, Open Source. Software document converter. We used it with .md, .HTML and .pdf files.  
+- bash - Bourne Again Shell. Unix shell and command language that is used to interact with the Kernel.  
+- Make - A file that contains a set of directives used to build an automation tool. (Wikipedia) We essentially write bash code that when run through make file, will automate certain actions. It also has time-stamps which allow for efficient execution of files.  
+- markdown - A way to write text can be exasily translated in HTML or PDF. It is the simplest form of writting documents in the technology world.  
+- Sublime Text 2 - Text editor - Where you can write code for multiple extentions.  
+
+As mentioned, this paper is about how to write a paper and hence I will talk about how i used these tools and why to create what I created. 
+
+The structure of the project is:
+
+Project1/  
+   .gitignore  
+   README.md  
+   Makefile  
+   paper  
+      sections  
+         00-abstract.md  
+         01-introduction.md  
+         02-discussion.md  
+         03-conclusions.md  
+   paper.md  
+   paper.html  
+   images  
+      git-logo.png  
+      github-logo.png  
+      markdown-logo.png  
+      pandoc-logo.png  
+      stat159-logo.png  
+ 
+The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on,
+ 
+
+DISCUSSION:
+
+To begin with this project, I first had to learn a few basic skills. These skills were mainly Git, Make and Pandoc - pretty much half of what was required. I read throught the porject requirements and then started watching videos on YouTube to learn these skills. There are alot of super helpful videos about Git/GitHub and a few decent ones about Make. I just read the professors notes about Pandoc which were enough to get a basic handle. 
+
+This has actually been an interesting experience because over the summer I was working in New York City and my job had a lot to do with R and data analysis. There was a point I was hating my life because I had to manually execute multiple .R files and extract graphs by hand. Everytime something changed and I had to do it all over again. Not just that but I also had a hundred versions of each file which made it a disaster later on. Not gonna lie - this actually made me lose some precious code becasue of shitty version control that I implemented (or lack of). To give an example, one of my major analysis was saved as "Monday-final.R" because I redid it on a Monday and then edited again till it became final. So.. given all this, I actually really appreciate what professor Sanchez is trying to teach. 
+
+Now to talk about Version Control - It is an absolute must when you are programming. The idea of saving changes and not files is just brilliant and "Git" is one product that allows you to do so. "Github" is essetially built on top of Git to provide a beautiful GUI and also allow us to store a backup on the cloud which can then be shared with people around the world. 
+
+Git - as mentioned is an open source Version control manager. It is a major part of the reproducable workflow because it allows ease of mainting projects throughout the lifecycle of the work. We can go back and check what we did on any given day ("commit") and understand how every piece was built considering that the programmer added the descriptions. It helps as it mainting multiple files becomes easy and you dont have to manually save different versions of it. Hence, making it easier to keep track of things and also easier to pass it on other people who can use the project without clutter. With Git, teams can work on the same project without having to run over each other because each member can take out a branch from the master which is essentially a copy of the master project, then add more stuff or change whatever to finally merge it back with the master. Remember we are only registering changes and not saving files - which allows us to simultaneuosly work on multiple branches that can bring togehter changes without anyone directly changing the master files. This is absolutely brilliant as it allows colaboration with ease!
+
+![](./../images/git-logo.png "Git Logo")
+
+GitHub - as mentioned is essentially a Graphical User Interface built on top of Git. It adds alot of additional features of it own but the core product is basically the git UI. GitHub is a major part of the reproducible and collaborative work force because 1) It allows easy store of code on cloud 2) which in turn allows easy sharing and collaboration amongst people 3) easy visualization of project structure and along with easily accessible details about the description of changes and the time stamps. 
+
+Makefile - is a simple executable file which stores commands that run in the terminal. The idea behind this is that if everytime you have to execute multiple files and then combine outputs etc to create the final product then you can just code the makefile with all the commands that are needed everytime and then "make" the makefile without having to write everything again and again. This makes it super easy to reproduce project without the pain of executing things individually. Also, because of this people who dont know how to code can just follow instructions to just make the makefile and run the project. 
+
+These were the basic things I started out with. The process of integrating Git and GitHub was easy-peasy and learning makefiles didnt take much time. I had done some programming before so I knew basic bash commands to get the project started. With these skills down I started working on the project by creating the folders, downloading images etc and then creating the README. The readme was created through markdown which is pretty simple so I didnt read much about it until this point where I was forced to because otherwise I wouldnt be able to describe it well here. 
+
+Bash - Essentially what the terminal is built on. Through the terminal we can practically do everying on the computer. There is a specific language/set of codes that run in the UNIX family which help with all this stuff. These codes were used by me to create folders, curl images, make files and shift files etc.
+
+Markdown - "Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper. 
+
+Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.
+
+Sublime Text 2 - Is a text editor that is used to write code. Any different type of code can be written and saved through this simple software. Sublime doesnt execute code or doing anything except providing a blank space to write and some helpful feature like error correction, autofill, highlights, color changes etc which might not seem important now but when youre writing 20,000 lines of code, it's the best thing thats ever happened to you. Why I use Sublime one might ask... well its because I was never smart enough to learn VIM and EMACS etc so I settled on sublime by default.
+
+The last thing that I used was Pandoc.
+
+Pandoc - Pandoc is a simple set of tools can be used to convert documents of one format to another very easily while preserving their content. In this project, we use it to change our .md files into an .html that is finally presented as the paper. 
+Having gone through what we have used, I will quickly say how I did what.
+
+First, I created a folder and initialized git within it. Then I linked GitHub online repository to this git initialized folder. Going forward, I used the terminal to create the skeleton of the project (which was mentioned in the description). Point to note is that between all these steps and the ones to come late, I kept saving the files using git while giving them meaningful commits that would help a lay person understand whats happening. Moving on, I created the README with the basic details, found the Creative Commons licence and attached it to the readme. Then created the Makefile which basically creates the paper.md and paper.html using pandoc. Having done all this, I took a 5 day break to focus on other problem sets and midterms that I had. Finally, today being Friday - the last day of the project, I am dutifully sitting in front of my laptop at 8pm like every good berkeley student who procrastinates working till the end. However, I am confident that I can deliver a quality paper with ample time left to get a few drinks tonight.
+
+Now moving on to answering some specific questions mentioned in the project guidlines.
+
+• What resources you used to get the job done?
+	I mainly used the lecture notes and resources posted by Prof. Sanchez on his website and on GitHub to learn what I needed. YouTube was also very helpful in just getting started without having to read boring documents.
+
+
+• What were the “easy” parts?
+	I think the easy parts were everything to do with programming and creating the structure of the project. What I mean are the things that are actually important for this project like the tools.
+
+
+• What were the challenging parts?
+	The challenging part on the other hand was to do this paper i.e, content. It's hard to explain the amount of commitment that is required for me to sit down and write stuff. On that note, I hate writing which is also why I am doing Statistics. :)
+
+
+• What things you were stuck with?
+	Nothing is particular. I forgot how to link photos to the .md file which took some time to figure out but other than that it was pretty straight forwad. 
+
+
+• What was the most time consuming part?
+	Undoubtedly, the most time consuming part was writing this paper. As mentioned above, I really had to get my stuff together to sit down, focus and find the eloquence needed to write this paper. Im not sure I've still found the eloquence ... but well you cant have everything in life or can you?!
+
+
+• Did you work with and/or get help from someone else? If yes, in what manner? 
+	Nope, not at all. I asked my roommate regarding an issue with Makefile but he said hes not made one in a while so doesnt remember any code. Oh and yea, I asked the GSI for some clarification on certain things. So im thankful for that.
+
+
+• How much time did it take? 
+	2 hours to learn git, set up everything and create the skeleton.
+	2+ hours to write this paper
+	In total, probably less that 5 Hours. 
+
+
+CONCLUSION:
+
+All in all this project has been pretty interesing and helpful. If you remember my story about the job in NY then now I can say that knwoing all this would have been a life-saver. Obviously, version control and doing work in small recreatable segments is the way to go. Writing clear commit along with readme etc also is a very important skill if anyone but you is also going to see the project. I am sure I am going to use these skills alot going forward. Thanks Professor Sanchez!
+
 

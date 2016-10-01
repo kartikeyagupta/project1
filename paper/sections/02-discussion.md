@@ -1,4 +1,4 @@
-Discussion:
+DISCUSSION:
 
 To begin with this project, I first had to learn a few basic skills. These skills were mainly Git, Make and Pandoc - pretty much half of what was required. I read throught the porject requirements and then started watching videos on YouTube to learn these skills. There are alot of super helpful videos about Git/GitHub and a few decent ones about Make. I just read the professors notes about Pandoc which were enough to get a basic handle. 
 
@@ -8,7 +8,11 @@ Now to talk about Version Control - It is an absolute must when you are programm
 
 Git - as mentioned is an open source Version control manager. It is a major part of the reproducable workflow because it allows ease of mainting projects throughout the lifecycle of the work. We can go back and check what we did on any given day ("commit") and understand how every piece was built considering that the programmer added the descriptions. It helps as it mainting multiple files becomes easy and you dont have to manually save different versions of it. Hence, making it easier to keep track of things and also easier to pass it on other people who can use the project without clutter. With Git, teams can work on the same project without having to run over each other because each member can take out a branch from the master which is essentially a copy of the master project, then add more stuff or change whatever to finally merge it back with the master. Remember we are only registering changes and not saving files - which allows us to simultaneuosly work on multiple branches that can bring togehter changes without anyone directly changing the master files. This is absolutely brilliant as it allows colaboration with ease!
 
+![](./../images/git-logo.png "Git Logo")
+
 GitHub - as mentioned is essentially a Graphical User Interface built on top of Git. It adds alot of additional features of it own but the core product is basically the git UI. GitHub is a major part of the reproducible and collaborative work force because 1) It allows easy store of code on cloud 2) which in turn allows easy sharing and collaboration amongst people 3) easy visualization of project structure and along with easily accessible details about the description of changes and the time stamps. 
+
+![](./../images/github-logo.png "GitHub Logo")
 
 Makefile - is a simple executable file which stores commands that run in the terminal. The idea behind this is that if everytime you have to execute multiple files and then combine outputs etc to create the final product then you can just code the makefile with all the commands that are needed everytime and then "make" the makefile without having to write everything again and again. This makes it super easy to reproduce project without the pain of executing things individually. Also, because of this people who dont know how to code can just follow instructions to just make the makefile and run the project. 
 
@@ -18,6 +22,8 @@ Bash - Essentially what the terminal is built on. Through the terminal we can pr
 
 Markdown - "Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper. 
 
+![](./../images/markdown-logo.png "Markdown Logo")
+
 Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.
 
 Sublime Text 2 - Is a text editor that is used to write code. Any different type of code can be written and saved through this simple software. Sublime doesnt execute code or doing anything except providing a blank space to write and some helpful feature like error correction, autofill, highlights, color changes etc which might not seem important now but when youre writing 20,000 lines of code, it's the best thing thats ever happened to you. Why I use Sublime one might ask... well its because I was never smart enough to learn VIM and EMACS etc so I settled on sublime by default.
@@ -26,6 +32,8 @@ The last thing that I used was Pandoc.
 
 Pandoc - Pandoc is a simple set of tools can be used to convert documents of one format to another very easily while preserving their content. In this project, we use it to change our .md files into an .html that is finally presented as the paper. 
 Having gone through what we have used, I will quickly say how I did what.
+
+![](./../images/pandoc-logo.png "Pandoc Logo")
 
 First, I created a folder and initialized git within it. Then I linked GitHub online repository to this git initialized folder. Going forward, I used the terminal to create the skeleton of the project (which was mentioned in the description). Point to note is that between all these steps and the ones to come late, I kept saving the files using git while giving them meaningful commits that would help a lay person understand whats happening. Moving on, I created the README with the basic details, found the Creative Commons licence and attached it to the readme. Then created the Makefile which basically creates the paper.md and paper.html using pandoc. Having done all this, I took a 5 day break to focus on other problem sets and midterms that I had. Finally, today being Friday - the last day of the project, I am dutifully sitting in front of my laptop at 8pm like every good berkeley student who procrastinates working till the end. However, I am confident that I can deliver a quality paper with ample time left to get a few drinks tonight.
 
@@ -59,7 +67,5 @@ Now moving on to answering some specific questions mentioned in the project guid
 	2 hours to learn git, set up everything and create the skeleton.
 	2+ hours to write this paper
 	In total, probably less that 5 Hours. 
-
-
 
 
