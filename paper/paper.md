@@ -1,12 +1,14 @@
 # Statistics 159 - Project 1 #
-Author - Kartikeya Gupta, 24557462
+## "HOW TO MAKE A PROJECT USING BASIC PROGRAMMING TOOLS" ##
+
+Author - Kartikeya Gupta
 Email - Kartik.gupta@berkeley.edu
 
-"HOW TO MAKE A PROJECT USING BASIC PROGRAMMING TOOLS"
+<img src="./../images/stat159-logo.png" width="400" height="200" />
 
 This paper is essentially a project about how I made this paper. Very abstract right? Consider this - This section is essentially the "abstract" section of the paper! Woooohhhhh!
 
-INTRODUCTION:
+### INTRODUCTION: ###
 
 To write this paper, I have used the tools mentioned below:  
 - Git - A VCS used for software development and version control tasks. Free - Open source  
@@ -22,28 +24,28 @@ As mentioned, this paper is about how to write a paper and hence I will talk abo
 The structure of the project is:
 
 Project1/  
-   .gitignore  
-   README.md  
-   Makefile  
-   paper  
-      sections  
-         00-abstract.md  
-         01-introduction.md  
-         02-discussion.md  
-         03-conclusions.md  
-   paper.md  
-   paper.html  
-   images  
-      git-logo.png  
-      github-logo.png  
-      markdown-logo.png  
-      pandoc-logo.png  
-      stat159-logo.png  
+...gitignore  
+...README.md  
+...Makefile  
+...paper  
+......sections  
+.........00-abstract.md  
+.........01-introduction.md  
+.........02-discussion.md  
+.........03-conclusions.md  
+...paper.md  
+...paper.html  
+...images  
+......git-logo.png  
+......github-logo.png  
+......markdown-logo.png  
+......pandoc-logo.png  
+......stat159-logo.png  
  
 The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on,
  
 
-DISCUSSION:
+### DISCUSSION: ###
 
 To begin with this project, I first had to learn a few basic skills. These skills were mainly Git, Make and Pandoc - pretty much half of what was required. I read throught the porject requirements and then started watching videos on YouTube to learn these skills. There are alot of super helpful videos about Git/GitHub and a few decent ones about Make. I just read the professors notes about Pandoc which were enough to get a basic handle. 
 
@@ -57,6 +59,8 @@ Git - as mentioned is an open source Version control manager. It is a major part
 
 GitHub - as mentioned is essentially a Graphical User Interface built on top of Git. It adds alot of additional features of it own but the core product is basically the git UI. GitHub is a major part of the reproducible and collaborative work force because 1) It allows easy store of code on cloud 2) which in turn allows easy sharing and collaboration amongst people 3) easy visualization of project structure and along with easily accessible details about the description of changes and the time stamps. 
 
+![](./../images/github-logo.png "GitHub Logo")
+
 Makefile - is a simple executable file which stores commands that run in the terminal. The idea behind this is that if everytime you have to execute multiple files and then combine outputs etc to create the final product then you can just code the makefile with all the commands that are needed everytime and then "make" the makefile without having to write everything again and again. This makes it super easy to reproduce project without the pain of executing things individually. Also, because of this people who dont know how to code can just follow instructions to just make the makefile and run the project. 
 
 These were the basic things I started out with. The process of integrating Git and GitHub was easy-peasy and learning makefiles didnt take much time. I had done some programming before so I knew basic bash commands to get the project started. With these skills down I started working on the project by creating the folders, downloading images etc and then creating the README. The readme was created through markdown which is pretty simple so I didnt read much about it until this point where I was forced to because otherwise I wouldnt be able to describe it well here. 
@@ -64,6 +68,9 @@ These were the basic things I started out with. The process of integrating Git a
 Bash - Essentially what the terminal is built on. Through the terminal we can practically do everying on the computer. There is a specific language/set of codes that run in the UNIX family which help with all this stuff. These codes were used by me to create folders, curl images, make files and shift files etc.
 
 Markdown - "Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper. 
+
+![](./../images/markdown-logo.png "Markdown Logo")
+<img src="./../images/markdown-logo.png" width="400" height="200" />
 
 Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.
 
@@ -73,6 +80,8 @@ The last thing that I used was Pandoc.
 
 Pandoc - Pandoc is a simple set of tools can be used to convert documents of one format to another very easily while preserving their content. In this project, we use it to change our .md files into an .html that is finally presented as the paper. 
 Having gone through what we have used, I will quickly say how I did what.
+
+![](./../images/pandoc-logo.png "Pandoc Logo")
 
 First, I created a folder and initialized git within it. Then I linked GitHub online repository to this git initialized folder. Going forward, I used the terminal to create the skeleton of the project (which was mentioned in the description). Point to note is that between all these steps and the ones to come late, I kept saving the files using git while giving them meaningful commits that would help a lay person understand whats happening. Moving on, I created the README with the basic details, found the Creative Commons licence and attached it to the readme. Then created the Makefile which basically creates the paper.md and paper.html using pandoc. Having done all this, I took a 5 day break to focus on other problem sets and midterms that I had. Finally, today being Friday - the last day of the project, I am dutifully sitting in front of my laptop at 8pm like every good berkeley student who procrastinates working till the end. However, I am confident that I can deliver a quality paper with ample time left to get a few drinks tonight.
 
@@ -108,7 +117,7 @@ Now moving on to answering some specific questions mentioned in the project guid
 	In total, probably less that 5 Hours. 
 
 
-CONCLUSION:
+### CONCLUSION: ###
 
 All in all this project has been pretty interesing and helpful. If you remember my story about the job in NY then now I can say that knwoing all this would have been a life-saver. Obviously, version control and doing work in small recreatable segments is the way to go. Writing clear commit along with readme etc also is a very important skill if anyone but you is also going to see the project. I am sure I am going to use these skills alot going forward. Thanks Professor Sanchez!
 

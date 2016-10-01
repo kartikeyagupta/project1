@@ -1,4 +1,4 @@
-INTRODUCTION:
+### INTRODUCTION: ###
 
 To write this paper, I have used the tools mentioned below:  
 - Git - A VCS used for software development and version control tasks. Free - Open source  
@@ -14,23 +14,23 @@ As mentioned, this paper is about how to write a paper and hence I will talk abo
 The structure of the project is:
 
 Project1/  
-   .gitignore  
-   README.md  
-   Makefile  
-   paper  
-      sections  
-         00-abstract.md  
-         01-introduction.md  
-         02-discussion.md  
-         03-conclusions.md  
-   paper.md  
-   paper.html  
-   images  
-      git-logo.png  
-      github-logo.png  
-      markdown-logo.png  
-      pandoc-logo.png  
-      stat159-logo.png  
+...gitignore  
+...README.md  
+...Makefile  
+...paper  
+......sections  
+.........00-abstract.md  
+.........01-introduction.md  
+.........02-discussion.md  
+.........03-conclusions.md  
+...paper.md  
+...paper.html  
+...images  
+......git-logo.png  
+......github-logo.png  
+......markdown-logo.png  
+......pandoc-logo.png  
+......stat159-logo.png  
  
 The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on,
  

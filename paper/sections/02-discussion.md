@@ -1,4 +1,4 @@
-DISCUSSION:
+### DISCUSSION: ###
 
 To begin with this project, I first had to learn a few basic skills. These skills were mainly Git, Make and Pandoc - pretty much half of what was required. I read throught the porject requirements and then started watching videos on YouTube to learn these skills. There are alot of super helpful videos about Git/GitHub and a few decent ones about Make. I just read the professors notes about Pandoc which were enough to get a basic handle. 
 
@@ -22,7 +22,7 @@ Bash - Essentially what the terminal is built on. Through the terminal we can pr
 
 Markdown - "Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper. 
 
-![](./../images/markdown-logo.png "Markdown Logo")
+<img src="./../images/markdown-logo.png" width="400" height="200" />
 
 Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.
 

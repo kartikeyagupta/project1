@@ -9,10 +9,11 @@
 </head>
 <body>
 <h1 id="statistics-159---project-1">Statistics 159 - Project 1</h1>
-<p>Author - Kartikeya Gupta, 24557462 Email - Kartik.gupta@berkeley.edu</p>
-<p>&quot;HOW TO MAKE A PROJECT USING BASIC PROGRAMMING TOOLS&quot;</p>
+<h2 id="how-to-make-a-project-using-basic-programming-tools">&quot;HOW TO MAKE A PROJECT USING BASIC PROGRAMMING TOOLS&quot;</h2>
+<p>Author - Kartikeya Gupta Email - Kartik.gupta@berkeley.edu</p>
+<p><img src="./../images/stat159-logo.png" width="400" height="200" /></p>
 <p>This paper is essentially a project about how I made this paper. Very abstract right? Consider this - This section is essentially the &quot;abstract&quot; section of the paper! Woooohhhhh!</p>
-<p>INTRODUCTION:</p>
+<h3 id="introduction">INTRODUCTION:</h3>
 <p>To write this paper, I have used the tools mentioned below:<br />
 - Git - A VCS used for software development and version control tasks. Free - Open source<br />
 - GitHub - Web based service that integrates Git with a very beautiful and funtional GUI. It also adds its own feature that some might appreciate.<br />
@@ -24,25 +25,25 @@
 <p>As mentioned, this paper is about how to write a paper and hence I will talk about how i used these tools and why to create what I created.</p>
 <p>The structure of the project is:</p>
 <p>Project1/<br />
-.gitignore<br />
-README.md<br />
-Makefile<br />
-paper<br />
-sections<br />
-00-abstract.md<br />
-01-introduction.md<br />
-02-discussion.md<br />
-03-conclusions.md<br />
-paper.md<br />
-paper.html<br />
-images<br />
-git-logo.png<br />
-github-logo.png<br />
-markdown-logo.png<br />
-pandoc-logo.png<br />
-stat159-logo.png</p>
+...gitignore<br />
+...README.md<br />
+...Makefile<br />
+...paper<br />
+......sections<br />
+.........00-abstract.md<br />
+.........01-introduction.md<br />
+.........02-discussion.md<br />
+.........03-conclusions.md<br />
+...paper.md<br />
+...paper.html<br />
+...images<br />
+......git-logo.png<br />
+......github-logo.png<br />
+......markdown-logo.png<br />
+......pandoc-logo.png<br />
+......stat159-logo.png</p>
 <p>The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on,</p>
-<p>DISCUSSION:</p>
+<h3 id="discussion">DISCUSSION:</h3>
 <p>To begin with this project, I first had to learn a few basic skills. These skills were mainly Git, Make and Pandoc - pretty much half of what was required. I read throught the porject requirements and then started watching videos on YouTube to learn these skills. There are alot of super helpful videos about Git/GitHub and a few decent ones about Make. I just read the professors notes about Pandoc which were enough to get a basic handle.</p>
 <p>This has actually been an interesting experience because over the summer I was working in New York City and my job had a lot to do with R and data analysis. There was a point I was hating my life because I had to manually execute multiple .R files and extract graphs by hand. Everytime something changed and I had to do it all over again. Not just that but I also had a hundred versions of each file which made it a disaster later on. Not gonna lie - this actually made me lose some precious code becasue of shitty version control that I implemented (or lack of). To give an example, one of my major analysis was saved as &quot;Monday-final.R&quot; because I redid it on a Monday and then edited again till it became final. So.. given all this, I actually really appreciate what professor Sanchez is trying to teach.</p>
 <p>Now to talk about Version Control - It is an absolute must when you are programming. The idea of saving changes and not files is just brilliant and &quot;Git&quot; is one product that allows you to do so. &quot;Github&quot; is essetially built on top of Git to provide a beautiful GUI and also allow us to store a backup on the cloud which can then be shared with people around the world.</p>
@@ -52,14 +53,23 @@ stat159-logo.png</p>
 
 </div>
 <p>GitHub - as mentioned is essentially a Graphical User Interface built on top of Git. It adds alot of additional features of it own but the core product is basically the git UI. GitHub is a major part of the reproducible and collaborative work force because 1) It allows easy store of code on cloud 2) which in turn allows easy sharing and collaboration amongst people 3) easy visualization of project structure and along with easily accessible details about the description of changes and the time stamps.</p>
+<div class="figure">
+<img src="./../images/github-logo.png" title="GitHub Logo" />
+
+</div>
 <p>Makefile - is a simple executable file which stores commands that run in the terminal. The idea behind this is that if everytime you have to execute multiple files and then combine outputs etc to create the final product then you can just code the makefile with all the commands that are needed everytime and then &quot;make&quot; the makefile without having to write everything again and again. This makes it super easy to reproduce project without the pain of executing things individually. Also, because of this people who dont know how to code can just follow instructions to just make the makefile and run the project.</p>
 <p>These were the basic things I started out with. The process of integrating Git and GitHub was easy-peasy and learning makefiles didnt take much time. I had done some programming before so I knew basic bash commands to get the project started. With these skills down I started working on the project by creating the folders, downloading images etc and then creating the README. The readme was created through markdown which is pretty simple so I didnt read much about it until this point where I was forced to because otherwise I wouldnt be able to describe it well here.</p>
 <p>Bash - Essentially what the terminal is built on. Through the terminal we can practically do everying on the computer. There is a specific language/set of codes that run in the UNIX family which help with all this stuff. These codes were used by me to create folders, curl images, make files and shift files etc.</p>
 <p>Markdown - &quot;Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper.</p>
+<p><img src="./../images/markdown-logo.png" title="Markdown Logo" /> <img src="./../images/markdown-logo.png" width="400" height="200" /></p>
 <p>Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.</p>
 <p>Sublime Text 2 - Is a text editor that is used to write code. Any different type of code can be written and saved through this simple software. Sublime doesnt execute code or doing anything except providing a blank space to write and some helpful feature like error correction, autofill, highlights, color changes etc which might not seem important now but when youre writing 20,000 lines of code, it's the best thing thats ever happened to you. Why I use Sublime one might ask... well its because I was never smart enough to learn VIM and EMACS etc so I settled on sublime by default.</p>
 <p>The last thing that I used was Pandoc.</p>
 <p>Pandoc - Pandoc is a simple set of tools can be used to convert documents of one format to another very easily while preserving their content. In this project, we use it to change our .md files into an .html that is finally presented as the paper. Having gone through what we have used, I will quickly say how I did what.</p>
+<div class="figure">
+<img src="./../images/pandoc-logo.png" title="Pandoc Logo" />
+
+</div>
 <p>First, I created a folder and initialized git within it. Then I linked GitHub online repository to this git initialized folder. Going forward, I used the terminal to create the skeleton of the project (which was mentioned in the description). Point to note is that between all these steps and the ones to come late, I kept saving the files using git while giving them meaningful commits that would help a lay person understand whats happening. Moving on, I created the README with the basic details, found the Creative Commons licence and attached it to the readme. Then created the Makefile which basically creates the paper.md and paper.html using pandoc. Having done all this, I took a 5 day break to focus on other problem sets and midterms that I had. Finally, today being Friday - the last day of the project, I am dutifully sitting in front of my laptop at 8pm like every good berkeley student who procrastinates working till the end. However, I am confident that I can deliver a quality paper with ample time left to get a few drinks tonight.</p>
 <p>Now moving on to answering some specific questions mentioned in the project guidlines.</p>
 <p>• What resources you used to get the job done? I mainly used the lecture notes and resources posted by Prof. Sanchez on his website and on GitHub to learn what I needed. YouTube was also very helpful in just getting started without having to read boring documents.</p>
@@ -69,7 +79,7 @@ stat159-logo.png</p>
 <p>• What was the most time consuming part? Undoubtedly, the most time consuming part was writing this paper. As mentioned above, I really had to get my stuff together to sit down, focus and find the eloquence needed to write this paper. Im not sure I've still found the eloquence ... but well you cant have everything in life or can you?!</p>
 <p>• Did you work with and/or get help from someone else? If yes, in what manner? Nope, not at all. I asked my roommate regarding an issue with Makefile but he said hes not made one in a while so doesnt remember any code. Oh and yea, I asked the GSI for some clarification on certain things. So im thankful for that.</p>
 <p>• How much time did it take? 2 hours to learn git, set up everything and create the skeleton. 2+ hours to write this paper In total, probably less that 5 Hours.</p>
-<p>CONCLUSION:</p>
+<h3 id="conclusion">CONCLUSION:</h3>
 <p>All in all this project has been pretty interesing and helpful. If you remember my story about the job in NY then now I can say that knwoing all this would have been a life-saver. Obviously, version control and doing work in small recreatable segments is the way to go. Writing clear commit along with readme etc also is a very important skill if anyone but you is also going to see the project. I am sure I am going to use these skills alot going forward. Thanks Professor Sanchez!</p>
 </body>
 </html>
