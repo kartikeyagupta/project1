@@ -45,7 +45,8 @@ stat159-fall2016-project1/
 
 This essentially outlines the structure of the project. We have a README file - which contains the basic information about the product. The Makefile contains the automation commands to create certain files and link documents. The paper folder is where raw information goes into different categories about the paper which are individually stored and editted. The images folder is simply for storing images that will go into the paper.
 
-
+Execution:
+If you would like to test this project. You can download or close it from github. Then use "make" in terminal to run the makefile which will create the paper.md and paper.html. Ta da!
 
 
 
