@@ -32,6 +32,6 @@ Project1/
 ......pandoc-logo.png  
 ......stat159-logo.png  
  
-The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on,
+The code is hosted on Github. This page that you are reading was created by the pandoc turning .md into a .html. In the discussion, I will go deeper into why, what how and anser a few extra questions about the project. Be sure to follow on.
  
 
