@@ -1,15 +1,15 @@
 MD = paper/sections/*.md
+PMD = paper/paper.md
+PHTML = paper/paper.html
 
-all: paper/paper.md paper/paper.html
 
-paper/paper.md: $(MD)
-	cat $(MD) > paper/paper.md
+all: $(PMD) $(PHTML)
 
-paper/paper.html: paper/paper.md
-	pandoc -s paper/paper.md -o paper/paper.html
+$(PMD): $(MD)
+	cat $(MD) > $(PMD)
+
+$(PHTML): $(PMD)
+	pandoc -s $(PMD) -o $(PHTML)
 
 clean:
-	rm -rf paper/paper.md paper/paper.html
-
-# Extra credit for variables, wildcards etc.
-# get license html code. convert to .md and add it to readme.md
+	rm -rf $(PMD) $(PHTML)

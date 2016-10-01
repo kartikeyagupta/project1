@@ -69,7 +69,6 @@ Bash - Essentially what the terminal is built on. Through the terminal we can pr
 
 Markdown - "Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people “to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)”. Source - Professor Sanchez website. Well, I couldnt have said it any better. It is a simple way of writing things which makes it easy to convert the work into many different formats without changing anything. This was used for the readme and the different sections of the paper. 
 
-![](./../images/markdown-logo.png "Markdown Logo")
 <img src="./../images/markdown-logo.png" width="400" height="200" />
 
 Now knowing mostly all the things, I started writing out the code and creating the sections of this paper. As of now problems have arisen particularly and all's smooth sailing. Oh and another thing. I used Sublime Text 2 as the editor of my choice to write code.

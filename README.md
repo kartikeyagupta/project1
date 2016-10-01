@@ -1,7 +1,6 @@
 STATISTICS 159 - Project 1
 
 Author: Kartikeya Gupta
-Id: 24557462
 
 Overview: This is project 1 where the goal is to learn the basic tools taught by the class. These tools are used for the creation of Project 1, which in turn is a project 1 describing how to use these tools. Confusing right?! It's pretty simple. We'll see that soon.
 
@@ -24,24 +23,24 @@ As mentioned above, this project is about learning tools and documenting the exp
 
 Structure: (as directed by Professor)
 
-stat159-fall2016-project1/
-    .gitignore
-    README.md
-    Makefile
-    paper/
-        sections/
-            00-abstract.md
-            01-introduction.md
-            02-discussion.md
-            03-conclusions.md
-		paper.md
-        paper.html
-    images/
-        git-logo.png
-        github-logo.png
-        markdown-logo.png
-        pandoc-logo.png
-        stat159-logo.png
+Stat159-fall2016-Project1/  
+...gitignore  
+...README.md  
+...Makefile  
+...paper  
+......sections  
+.........00-abstract.md  
+.........01-introduction.md  
+.........02-discussion.md  
+.........03-conclusions.md  
+...paper.md  
+...paper.html  
+...images  
+......git-logo.png  
+......github-logo.png  
+......markdown-logo.png  
+......pandoc-logo.png  
+......stat159-logo.png 
 
 This essentially outlines the structure of the project. We have a README file - which contains the basic information about the product. The Makefile contains the automation commands to create certain files and link documents. The paper folder is where raw information goes into different categories about the paper which are individually stored and editted. The images folder is simply for storing images that will go into the paper.
 
